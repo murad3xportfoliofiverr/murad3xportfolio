@@ -1,0 +1,668 @@
+.home-hero-section{
+    padding: 130px 20px 100px 20px;
+}
+
+.container{
+    width: 1088px;
+    margin: 0 auto;
+}
+
+.home-hero-section .container .image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.home-hero-section .container .image img{
+    border: 4px solid hsl(243 75% 59%);
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+
+.home-hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-hero-content h1{
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #020817;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+
+.home-hero-content p{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #64748b;
+    text-align: center;
+    width: 66%;
+    align-self: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.home-hero-content a{
+    margin-top: 30px;
+    padding: 8px 45px;
+    background-color: #f8fafc;
+    border-radius: 9999px;
+    align-self: center;
+    color: hsl(222.2 84% 4.9%);
+}
+
+.project-details h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #020817;
+    font-family: "Urbanist", sans-serif;
+}
+
+.project-details span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748b;
+    font-family: "Urbanist", sans-serif;
+}
+
+.project-details {
+    padding: 48px 96px 0 74px;
+    width: 896px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    column-gap: 160px   ;
+}
+
+.home-hero-button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-button {
+    margin-top: 48px !important;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center !important;
+    color: white !important;
+    font-family: "Urbanist", sans-serif;
+    padding: 16px 32px;
+    background-color: hsl(243 75% 59%) !important;
+}
+
+.services-section{
+    padding: 0 20px 0 20px;
+}
+
+
+.services-section .container{
+    width: 1216px;
+    margin: 0 auto;
+    
+}
+
+.services-item .item{
+    padding: 32px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 0.75rem;
+}
+
+
+.social-media-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2{
+    margin-bottom: 24px;
+    font-size: 48px;
+    color: hsl(222.2 84% 4.9%);
+    font-family: "Urbanist", sans-serif;
+}
+
+.services-content p{
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 28px;
+    color: hsl(215.4 16.3% 46.9%);
+    font-family: "Urbanist", sans-serif;
+}
+
+
+.social-media h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #020817;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 16px;
+}
+
+.social-media div{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+
+.services-item .item:hover{
+   box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+}
+ 
+
+
+.services-item .item h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #020817;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 16px;
+}
+
+.services-item .item p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: hsl(215.4 16.3% 46.9%);
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 16px;
+}
+
+.services-item .item ul li{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #64748b;
+    font-family: "Urbanist", sans-serif;
+    list-style-type: revert;
+    margin-left: 19px;
+}
+
+.services-item .item ul li::marker {
+  color: #5048e5;
+  font-size: 1.5em;
+}
+
+.services-item .item ul{
+    margin-bottom: 32px;
+}
+
+.services-item .item div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.services-item{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+
+.services-item-but .button-1{
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    color: #5048e5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0 10px 0;
+    border-radius: 0.75rem;
+    border: 2px solid hsl(243 75% 59%);
+}
+
+.services-item-but .button-1:hover{
+    background-color: #5048e5;
+    color: white;
+}
+
+.services-item-but .button-2{
+    color: white;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+    border-radius: 0.75rem;
+    background-color: #5048e5;
+    border: 2px solid hsl(243 75% 59%);
+}
+
+.need-else-section{
+    margin-top: 64px;
+    margin-bottom: 80px;
+    padding: 0 20px 0 20px;
+}
+
+.need-else-section .container{
+    width: 894px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #f3f4fc;
+    border-radius: 10px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+}
+
+.need-else-section .container h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: "Urbanist", sans-serif;
+    color: hsl(222.2 84% 4.9%);
+    text-align: center;
+}
+
+.need-else-section .container p{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: hsl(215.4 16.3% 46.9%);
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.need-else-section .container .else-list-item{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-bottom: 32px;
+    
+}
+
+.need-else-section .container .else-list-item a{
+    align-self: center;
+    text-align: center;
+}
+
+.else-list-item li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #5048e5;
+    font-family: "Urbanist", sans-serif;
+}
+
+.quote-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-btn a{
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color:  white;
+    background-color: #5048e5;
+    padding: 15px 32px;
+    font-family: "Urbanist", sans-serif;
+    border-radius: 0.75rem;
+}
+
+
+.let-me-section .section{
+    padding: 80px 20px;
+    width: 1088px;
+    margin: 0 auto;
+}
+
+.let-me-section .section div h2{
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #020817;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.let-me-all-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.let-me-all-item .let-me-item h4{
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #020817;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 8px;
+}
+
+.let-me-all-item .let-me-item p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: hsl(215.4 16.3% 46.9%);
+    font-family: "Urbanist", sans-serif;
+}
+
+.let-me-all-item .let-me-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    cursor:  ;
+}
+
+.let-me-all-item .let-me-item.active h4{
+    color: #5048e5;
+    font-weight: 600;
+}
+
+.let-me-all-item .let-me-item.active h4{
+    color: #5048e5;
+}
+
+.let-me-all-item .let-me-item.active {
+    border: 1px solid #5048e5;
+    background-color: #edecfc;
+    box-shadow: 0 10px 15px -3px #d0cff7, 0 4px 6px -4px #d0cff7;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+/* ************************************************** Responsive Design Start ************************************************** */
+
+
+@media only screen and (min-width:1025px) and (max-width:1250px){
+
+.services-section .container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-hero-section .container{
+    width: 100%;
+}
+
+.project-details {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+.need-else-section .container {
+    padding: 20px !important;
+}
+
+.let-me-section .section {
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    
+.home-hero-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-details {
+    padding: 48px 0 0 0;
+    width: 100%;
+}
+
+.home-hero-content h1 {
+ width: 90%;
+ align-self: center;
+}
+
+.home-hero-content p {
+    width: 78%;
+}
+
+.home-hero-button {
+    margin-left: 55px;
+}
+
+.home-hero-content h1, .home-hero-content p, .home-hero-content a{
+    margin-top: 24px;
+
+}
+
+.services-section .container {
+    width: 100%;
+
+}
+
+.services-content p {
+    margin-bottom: 24px;
+
+}
+
+.services-item {
+    margin-top: 32px;
+}
+
+.need-else-section .container {
+    width: 100%;
+    padding: 32px 0;
+}
+
+}
+
+@media only screen and (max-width:767px) {
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-details {
+    padding: 48px 0 0 0;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+}
+.home-hero-section {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.home-hero-content h1 {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.home-hero-content p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 26px;
+    width: 96%;
+}
+
+.home-hero-content a {
+    margin-top: 15px;
+    padding: 8px 27px;
+    align-self: center;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.project-details {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0;
+    row-gap: 20px;
+}
+
+.project-details h2{
+    font-size: 20px;
+}
+
+.project-details div{
+    text-align: center;
+}
+
+.hero-button {
+    margin-top: 30px !important;
+}
+
+.services-section .container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-hero-section .container{
+    width: 100%;
+}
+
+.project-details {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+
+.services-item {
+    display: flex;
+    column-gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.services-item .item {
+    flex: 0 0 75%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    padding: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.services-item::-webkit-scrollbar {
+    display: none;
+}
+
+.services-section {
+    padding: 0 20px 50px 20px;
+}
+
+.services-content h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.services-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.social-media div {
+    column-gap: 10px;
+}
+
+.social-media-icon {
+    width: 33px;
+    height: 33px;
+}
+
+.services-item {
+    margin-top: 30px;
+}
+
+.services-item .item:hover{
+  box-shadow: none;
+}
+
+.services-item .item h3 {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: start;
+}
+
+.services-item .item p {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: start;
+}
+
+.services-item .item ul li {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 19px;
+    text-align: start;
+}
+
+.services-item-but .button-1, .services-item-but .button-2{
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+    border-radius: 7px;
+}
+
+.need-else-section .container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.need-else-section .container .else-list-item{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.need-else-section {
+    margin-top: 0px;
+   
+}
+
+.need-else-section .container div{
+    padding: 0 15px;
+}
+
+.need-else-section .container .else-list-item {
+    margin-bottom: 15px;
+}
+
+.quote-btn a {
+    margin-top: 15px;
+}
+
+.need-else-section .container .else-list-item {
+    column-gap: 16px;
+
+}
+
+}
+
